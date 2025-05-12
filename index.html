@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    
+    <!--Bootstrap CDN Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    
+    <!--Animate.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div class="animate__animated animate__bounceIn">
+        <div class="container">
+            <div id="details" class="col-5 m-4 p-5 bg-light bg-opacity-25">
+                <div class="form-floating">
+                    <input type="text" id="name" class="form-control" placeholder="Drop Name Here ⬇️">
+                    <label for="#name">Drop Name Here ⬇️</label>
+                </div>
+
+                <div class="Rules my-4 text-white">
+                    <p class="h5 text-uppercase">Survival Guide</p>
+                    <ul style="list-style-type: decimal;">
+                        <li>You’ll be asked 5 knowledge-based questions.</li>
+                        <li>Each question has 4 options, but only one is correct.</li>
+                        <li>You have 4 lifelines (use each only once):
+                            <ul>
+                                <li>50-50: Removes 2 incorrect options.</li>
+                                <li>Audience Poll: Get help from the virtual crowd.</li>
+                                <li>Skip: Don’t like the question? Skip it.</li>
+                                <li>Quit: Walk away with your current score.</li>
+                            </ul>
+                        </li>
+                        <li>One wrong answer ends the game instantly – no do-overs!</li>
+                        <li>Only correct answers let you move forward.</li>
+                        <li>Lifelines won’t save you from a wrong answer – choose wisely!  </li>                  
+                        <li>Keep it fair, no cheating!</li>
+                        <li>Most importantly, have fun and test your brainpower!</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <a href="quiz.html" class="btn btn-primary mt-3 p-3" role="button" id="tap">Tap to play</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

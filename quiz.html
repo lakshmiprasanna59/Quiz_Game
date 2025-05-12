@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+
+    <link rel="stylesheet" href="css/quiz.css">
+    
+    <!--Bootstrap CDN Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    
+    <!-- Font Awesome CDN Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div>
+        <div class="nB mb-4 text-white">
+            <nav>
+                <p class="h4 p-3 me-5"><span><i class="fa-regular fa-user"></i></span> <span id="PlayerName" ></span> </p>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="col-8 m-auto bg-dark bg-opacity-50 p-5">
+                <div class=" mb-3">
+
+                    <div class="mt-4">
+                        <p class="h5 text-white ms-5 ps-3" id="question"></p>
+                    </div>
+                    
+                    <hr class="text-white">
+
+                    <div>
+                        <div class="row">
+                            <div class="d-grid gap-2 col-6 mb-2 m-auto">
+                                <button type="button" class="btn btn-outline-light fs-4" id="one"></button>
+                            </div>
+                            <div class="col-2 pb-3 mb-2 m-auto">
+                                <span class="text-light" id="ap1"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="d-grid gap-2 col-6 mb-2 m-auto">
+                                <button type="button" class="btn btn-outline-light fs-4" id="two"></button>
+                            </div>
+                            <div class="col-2 pb-3 mb-2 m-auto">
+                                <span class="text-light" id="ap2"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="d-grid gap-2 col-6 mb-2 m-auto">
+                                <button type="button" class="btn btn-outline-light fs-4" id="three"></button>
+                            </div>
+                            <div class="col-2 pb-3 mb-2 m-auto">
+                                <span class="text-light" id="ap3"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="d-grid gap-2 col-6 mb-2 m-auto">
+                                <button type="button" class="btn btn-outline-light fs-4" id="four"></button>
+                            </div>
+                            <div class="col-2 pb-3 mb-2 m-auto">
+                                <span class="text-light" id="ap4"></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <p class="my-3 text-white text-center" id="fun-fact"></p>
+
+                    <div class="ms-5 ps-3">
+                        <button type="button" class="btn btn-light px-4 py-1 " id="next">Next</button>
+                    </div>
+
+                    <hr class="text-white mb-4">
+
+                    <div class="lifelines my-3">
+                        <div class="container ">
+                            <div class="row">
+                                <div class="d-grid gap-2 col-3">
+                                    <button type="button" class="btn btn-light" id="ff">50-50</button>
+                                </div>
+                                <div class="d-grid gap-2 col-3">
+                                    <button type="button" class="btn btn-light" id="ap">Audience poll</button>
+                                </div>
+                                <div class="d-grid gap-2 col-3">
+                                    <button type="button" class="btn btn-light" id="skip">Skip</button>
+                                </div>
+                                <div class="d-grid gap-2 col-3">
+                                    <button type="button" class="btn btn-light" id="quit">Quit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/quiz.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

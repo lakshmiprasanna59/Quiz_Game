@@ -1,0 +1,26 @@
+body {
+    background: url(https://images.pexels.com/photos/276374/pexels-photo-276374.jpeg?cs=srgb&dl=pexels-pixabay-276374.jpg&fm=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.f {
+    font-family: "Whisper", cursive;
+    font-size: 80px;
+    /*color: green;*/
+}
+.box {
+    margin-top: 200px;
+    width: 700px;
+    height: 400px;
+    box-shadow: 0px 0px 15px white;
+}
+#player {
+    font-family: "Playfair Display SC", serif;
+    font-size: 50px;
+    /*color: peru;*/
+}
+.m {
+    font-family: "Allura", cursive;
+    font-size: 60px;
+    /*color: cadetblue;*/
+}

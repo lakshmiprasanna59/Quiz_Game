@@ -1,0 +1,15 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1608592077365-c6399182e63c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bGFuZHNjYXBlc3xlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nB {
+    display: flex;
+    justify-content: flex-end;
+}
+#next {
+    display: flex;
+}
+.box {
+    display: flex;
+}

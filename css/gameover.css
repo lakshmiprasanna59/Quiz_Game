@@ -1,0 +1,27 @@
+body {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYAVmWiIum04xTXlGmLFhDFXHgsR-F7HqL3KxrMfFVoVWsBeddqHbUSmYp4gnOQhhOREw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.f {
+    font-family: "Rubik Glitch", system-ui;
+    font-size: 45px;
+}
+.gameOver {
+    font-family: "Rubik Glitch", system-ui;
+    font-size: 60px;
+}
+.youWon {
+    color: aqua;
+    font-size: 50px;
+    font-family: "Allura", cursive;
+}
+#player {
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+}
+.box {
+    box-shadow: 0px 0px 15px white;
+    width: 700px;
+    height: 400px;
+}
